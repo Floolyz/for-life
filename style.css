@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.Container header h1 { 
+    text-align: center;
+}
+
+header .info  { 
+   display: flex;
+   
+   margin-top: .7rem;
+   justify-content: center;
+   padding: 20px;
+}
+
+header .info .img1,.img2 { 
+    width: 100px;
+    height: 120px;
+    border: 2.5px solid red;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: rgb(193, 193, 255);
+    color: white;
+}
+header .info .img1 { 
+    color: black;
+    border-color: rgb(108, 108, 108);
+}
+header .info .img2 { 
+    color: red;
+    background: orange;
+}
+header .info .img1:hover { 
+    transition: .35s ease ;
+    color: aquamarine;
+    background: #4f4e4e;
+    border-color: red;
+}
+header .info .img2:hover { 
+    background-color: red;
+    color: rgb(255, 189, 164);
+    border-color: black;
+    font-weight: lighter;
+    transition: .35s ease;
+}
+
+header h2 { 
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h2 iframe { 
+    margin-top: 20px;
+}

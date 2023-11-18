@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="Container">
+        <header>
+            <h1>
+                Brain Wave
+            </h1>
+            <div class="info">
+
+                <div class="img1" onclick="clickedf()">
+                    <p>Sleep</p>
+                </div>
+                
+           
+                <div class="img2" onclick="clic2fr()">
+                    <p>For Work</p>
+                </div>
+                
+                
+
+            </div>
+                <h2>
+                    audio will come here...
+                    <iframe id="free2" width="560" height="315" src="https://www.youtube.com/embed/GEgSBuYlSoA?si=fXKkW7yPHn6YG3hn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe id="free" width="560" height="315" src="https://www.youtube.com/embed/xQ6xgDI7Whc?si=IXSW80wmeW8fd06L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </h2>
+        </header>
+    </div>
+        
+    <script>
+        
+        const iframe =  document.getElementById('free');
+        const iframe2 = document.getElementById('free2')
+        const img1 = document.querySelector(".img1");
+        const img2 = document.querySelector(".img2")
+        iframe.style.display = 'none';
+        iframe2.style.display = 'none';
+
+        function clickedf() { 
+            iframe.style.display = 'block';
+        }
+
+        function clic2fr() { 
+            iframe2.style.display = 'block';
+        }
+
+    </script>
+
+
+</body>
+</html>
